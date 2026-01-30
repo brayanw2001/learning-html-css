@@ -9,6 +9,8 @@
     p {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 10px;
     }
 
     .coin-value {
@@ -20,11 +22,31 @@
       color: grey;
       margin-left: 5px;
     }
+
+    .variance {
+      color: green;
+    }
+
+    .after-hours {
+      color: grey;
+    }
+
+    .after-hours-variance {
+      color: rgb(216, 4, 4);
+    }
   </style>
 </head>
 <body>
   <p class="coin-value">
     1,049.61 <span class="coin">USD</span>
   <p>
+
+  <p class="variance">
+    +18.06 (1,75%) today
+  </p>
+
+  <p class="after-hours">
+    After hours 1,048.00 <span class="after-hours-variance">-1.61 (0.15%)</span>
+  </p>
 </body>
 </html>
